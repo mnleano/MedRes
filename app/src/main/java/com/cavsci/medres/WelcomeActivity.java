@@ -15,6 +15,6 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     public void onMedResClicked(View view) {
-        startActivity(new Intent(this, FeelingActivity.class));
+        startActivity(new Intent(this, EmotionActivity.class));
     }
 }

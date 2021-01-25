@@ -11,9 +11,9 @@
         android:theme="@style/Theme.MedRes">
         <activity android:name="com.cavsci.medres.ThankYouActivity" />
         <activity android:name="com.cavsci.medres.PostCreditsActivity" />
-        <activity android:name="com.cavsci.medres.MediaPlayerActivity" />
+        <activity android:name="com.cavsci.medres.MusicPlayerActivity" />
         <activity android:name="com.cavsci.medres.DurationActivity" />
-        <activity android:name="com.cavsci.medres.FeelingActivity" />
+        <activity android:name="com.cavsci.medres.EmotionActivity" />
         <activity
             android:name="com.cavsci.medres.WelcomeActivity"
             android:screenOrientation="portrait">

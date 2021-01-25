@@ -4,14 +4,14 @@
     <string name="welcome_cavscian">Welcome Cavscian</string>
     <string name="meditate_restore">Meditate and Restore</string>
     <string name="how_are_you_today">How are you today?</string>
-    <string name="weve_handpicked_a_few_things">We\'ve handpicked a few things\nto get on your way.</string>
+    <string name="weve_handpicked_a_few_things">We\'ve handpicked a few\nthings to get on your way.</string>
     <string name="coping_with_anxiety">Coping with Anxiety</string>
     <string name="stress">Stress</string>
     <string name="lack_of_sleep">Lack of Sleep</string>
     <string name="positive_energy">Positive Energy</string>
     <string name="focus">Focus</string>
     <string name="inner_peace">Inner Peace</string>
-    <string name="choose_how_long">Choose how long you want to meditate:</string>
+    <string name="choose_how_long">Choose how long you\nwant to meditate:</string>
     <string name="minutes3">3 minutes</string>
     <string name="minutes5">5 minutes</string>
     <string name="minutes10">10 minutes</string>
@@ -19,8 +19,8 @@
     <string name="yes_relaxed">Yes, I feel relaxed and restored!</string>
     <string name="do_you_want_to_continue_meditating_or_other_selection">Do you want to continue meditating or other selection?</string>
     <string name="yes_continue">Yes, I want to continue!</string>
-    <string name="thank_you">Thank you for using Med Res!</string>
-    <string name="med_res_mob_app_by">Med Res Mobile Application Project by:</string>
+    <string name="thank_you">Thank you for using\nMed Res!</string>
+    <string name="med_res_mob_app_by">Med Res Mobile Application\nProject by:</string>
     <string name="developers_name">Alyssa Maive C. Geronimo\nJustine V. Rodil\nDenise Chelsea L. Berganos</string>
     <string name="tap_to_start">Tap Med Res to start</string>
 </resources>

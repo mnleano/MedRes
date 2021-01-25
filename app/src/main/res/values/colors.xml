@@ -8,5 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="shadow">#000000</color>
-    <color name="blue">#01579b</color>
+    <color name="blue">#1ca3ec</color>
+    <color name="background_mask">#33000000</color>
 </resources>

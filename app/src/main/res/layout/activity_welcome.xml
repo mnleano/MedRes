@@ -7,15 +7,20 @@
     android:background="@drawable/background2"
     tools:context=".WelcomeActivity">
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_mask" />
+
     <com.cavsci.medres.widget.TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="64dp"
         android:gravity="center"
-        android:shadowColor="@color/shadow"
+        android:shadowColor="@color/black"
         android:shadowDx="2"
         android:shadowDy="2"
-        android:shadowRadius="4"
+        android:shadowRadius="@dimen/shadow_radius"
         android:text="@string/welcome_cavscian"
         android:textSize="@dimen/text_size_title"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,16 +30,17 @@
     <com.cavsci.medres.widget.TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/background_stroke"
+        android:background="@drawable/background_stroke_blue"
         android:onClick="onMedResClicked"
         android:padding="16dp"
         android:shadowColor="@color/white"
         android:shadowDx="2"
         android:shadowDy="2"
-        android:shadowRadius="4"
+        android:shadowRadius="@dimen/shadow_radius"
         android:text="@string/app_name"
         android:textColor="@color/blue"
         android:textSize="@dimen/text_size_title"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,28 +49,14 @@
     <com.cavsci.medres.widget.TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="48dp"
         android:gravity="center"
         android:shadowColor="@color/shadow"
         android:shadowDx="2"
         android:shadowDy="2"
-        android:shadowRadius="4"
+        android:shadowRadius="@dimen/shadow_radius"
         android:text="@string/meditate_restore"
         android:textSize="@dimen/text_size_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <com.cavsci.medres.widget.TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:gravity="center"
-        android:shadowColor="@color/shadow"
-        android:shadowDx="2"
-        android:shadowDy="2"
-        android:shadowRadius="4"
-        android:text="@string/tap_to_start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
